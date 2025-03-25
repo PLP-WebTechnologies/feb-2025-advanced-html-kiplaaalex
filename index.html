@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+</head>
+<body>
+    <header>
+        <h1>Advanced HTML5 Elements and Forms</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List</h2>
+        <ol type="I">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="A beautiful landscape from Pexels" width="500">
+    </section>
+
+    <!-- Contacts Table -->
+    <section>
+        <h2>Contacts Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St</td>
+                    <td>+1234567890</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Elm St</td>
+                    <td>+0987654321</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mark Johnson</td>
+                    <td>789 Oak St</td>
+                    <td>+1122334455</td>
+                    <td>mark@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alex Kiplangat</td>
+                    <td>1404-20100 Nakuru</td>
+                    <td>+254743856701</td>
+                    <td>alexkiplangat22@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Alex Kiplangat</td>
+                    <td>1404-20100 Nakuru</td>
+                    <td>+254743856701</td>
+                    <td>alexkiplangat22@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a password" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" required>
+            <label for="female">Female</label>
+            <br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select Country</option>
+                <option value="KENYA">KENYA</option>
+                <option value="UGANDA">UGANDA</option>
+                <option value="SOUTH AFRICA">SOUTH AFRICA</option>
+                <option value="NIGERIA">NIGERIA</option>
+                <option value="ZIMBABWE">ZIMBABWE</option>
+            </select>
+            <br><br>
+
+            <label>Interests:</label><br>
+            <input type="checkbox" id="coding" name="interests" value="Coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="sports" name="interests" value="Sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="Music">
+            <label for="music">Music</label>
+            <br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
